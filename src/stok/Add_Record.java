@@ -21,18 +21,18 @@ implements ActionListener{
 	JPanel panel1=new JPanel();
 	JPanel panel2=new JPanel();
 	
-	JComboBox name=new JComboBox();
+	JComboBox isim=new JComboBox();
 	JTextField buy=new JTextField(10);
 	JTextField sell=new JTextField(10);
-	JTextField total=new JTextField(10);
+	JTextField toplam=new JTextField(10);
 	JTextField price=new JTextField(10);
 	
-	JLabel lname=new JLabel("Product Name  : ");
-	JLabel ltotal=new JLabel("Total         : ");
-	JLabel lbuy=new JLabel("Buy  : ");
+	JLabel lname=new JLabel("urun ismi  : ");
+	JLabel ltotal=new JLabel("toplam         : ");
+	JLabel lbuy=new JLabel("satın al  : ");
 	JLabel lsell=new JLabel("Sell         : ");
 	JLabel lprice=new JLabel("Price         : ");
-	JButton Buttonadd=new JButton("ADD RECORD");
+	JButton Buttonadd=new JButton("kayıt ekle");
 	JButton returnn=new JButton("RETURN BACK");
 	 Connection conn; 
 	 Statement stat; 
@@ -40,12 +40,12 @@ implements ActionListener{
 
 	public static void main(String[] args) {
 		
-Add_Record record=new Add_Record();
+Add_Record record=new kayıt ekle();
 
 	}
 	
 	
-	public Add_Record()
+	public kayıt ekle()
 	  {
 	    setLayout(new FlowLayout());
 	    setSize(580,290);
